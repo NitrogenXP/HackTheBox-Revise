@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Hide HackTheBox's answers on completed modules",
+    "version": "1.0",
+    "description": "Hides HackTheBox's completed answers and lets you revise them.",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

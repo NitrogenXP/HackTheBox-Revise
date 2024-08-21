@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Revision extension for HackTheBox",
+    "version": "1.0",
+    "description": "Masks already revealed answers and lets you type them again and revise your HackTheBox modules.",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"], 
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ],
+    "action": {
+      "default_icon": "icons/icon.jpg"
+    }
+  }
+  
