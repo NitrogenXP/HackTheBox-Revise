@@ -1,8 +1,17 @@
 # HackTheBox-Revise
-This is a Firefox extension that is made for revising HackTheBox completed modules.
+Buy me a coffee :) https://buymeacoffee.com/nitrogenxp
 
-![image](https://github.com/user-attachments/assets/07783e06-6141-44e4-b437-0b7eb2d19ca7)
+This is a Firefox and Chrome extension that is made for revising HackTheBox completed modules.
+Setup tutorial video (make sure to subscribe):
+https://youtu.be/hRAtF1FtRvc
 
-It hides completed questions and shows * symbol in the place of them. If you type the correct value, extension will say that the value is correct. If the value wasn't correct the answer stays hidden. If you want to reveal the answer you can press on Reveal Answer button. 
+This extension hides completed questions and displays an asterisk (*) in their place. If you type the correct value, extension will say that the value is correct. If the value wasn't correct the answer stays hidden. If you want to reveal the answer you can press on Reveal Answer button.
+![image](https://github.com/user-attachments/assets/e8ab9808-4533-41b8-b17a-112548c77547)
 
-To load the extension download the provided files, extract them into a folder. In firefox go to `about:debugging#/runtime/this-firefox`, click on `Load temporary Add-on` and select `content.js` file.  
+For firefox:
+Download firefox extension folder. In firefox go to `about:debugging#/runtime/this-firefox`, click on `Load temporary Add-on` and select `content.js` file.  
+![image](https://github.com/user-attachments/assets/b04d059a-bb20-40c1-908b-83a8ce426b43)
+
+For chrome:
+Download chrome extension folder. In chrome go to `about://extensions`, on the top right corner enable developer mode, click on `Load unpacked` and select chrome extension folder.
+![image](https://github.com/user-attachments/assets/50302e2b-a5eb-4e11-a6a2-73e6232c8708)
